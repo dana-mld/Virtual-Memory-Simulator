@@ -181,7 +181,7 @@ public class SimulationConfigurator {
         return button;
     }
 
-    private void setDefaultValues() {
+    public void setDefaultValues() {
         if (physicalPageSizeField != null) physicalPageSizeField.setText("32");
         if (offsetBitsField != null) offsetBitsField.setText("1");
         if (virtualMemorySizeField != null) virtualMemorySizeField.setText("64");
@@ -281,7 +281,7 @@ public class SimulationConfigurator {
                 JOptionPane.ERROR_MESSAGE);
     }
 
-    static class MemoryConfiguration {
+    public static class MemoryConfiguration {
         public final int physicalPageSize;
         public int offsetBits;
         public int physicalSize;
