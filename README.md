@@ -75,7 +75,5 @@ The simulator is built with a modular structure where each class represents a ha
 ## 6. Installation & Usage
 
 1. Ensure you have the **JDK** installed.  
-2. Clone the repository:  
+2. Clone the repository
 
-```bash
-git clone https://github.com/yourusername/Virtual-Memory-Simulator.git
