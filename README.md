@@ -26,7 +26,7 @@ This Java-based tool simulates the translation of virtual addresses into physica
 ## 2. Key Features
 
 - **Parameters of simulation at choice or default**: the user can provide his own parameters, but they are verified to be powers of 2.
-- <img width="440" height="495" alt="Screenshot 2026-03-07 200054" src="https://github.com/user-attachments/assets/dcf40365-87a8-4e7e-bb90-bcc9601c414e" />
+- <img width="240" height="295" alt="Screenshot 2026-03-07 200054" src="https://github.com/user-attachments/assets/dcf40365-87a8-4e7e-bb90-bcc9601c414e" />
 
 - **Interactive Address Decomposition:** Decomposes user-input virtual addresses into Page Numbers and Offsets.
 - **Step-by-Step Execution:** A "Next Step" mechanism allows users to follow the simulation at their own pace through a snapshot system.  
