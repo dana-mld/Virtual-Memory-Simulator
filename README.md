@@ -8,6 +8,12 @@ Written in Java, it is meant to be a helper in the process of learning how OS ma
 
 This Java-based tool simulates the translation of virtual addresses into physical addresses, demonstrating how modern hardware and software coordinate memory access.
 
+
+
+<img width="592" height="384" alt="image" src="https://github.com/user-attachments/assets/e30b2e19-bab7-44cd-8660-d0e032a63b2e" />
+
+
+
 **Key Objectives:**
 
 - Visualize the translation flow from Virtual Addresses to Physical Addresses.  
@@ -19,7 +25,10 @@ This Java-based tool simulates the translation of virtual addresses into physica
 
 ## 2. Key Features
 
-- **Interactive Address Decomposition:** Decomposes user-input virtual addresses into Page Numbers and Offsets.  
+- **Parameters of simulation at choice or default**: the user can provide his own parameters, but they are verified to be powers of 2.
+- <img width="440" height="495" alt="Screenshot 2026-03-07 200054" src="https://github.com/user-attachments/assets/dcf40365-87a8-4e7e-bb90-bcc9601c414e" />
+
+- **Interactive Address Decomposition:** Decomposes user-input virtual addresses into Page Numbers and Offsets.
 - **Step-by-Step Execution:** A "Next Step" mechanism allows users to follow the simulation at their own pace through a snapshot system.  
 - **Real-time Visualization:** Graphical displays show the current state of TLB, Page Tables, RAM, and Disk.  
 - **Automated Testing:** Features a "Demo Mode" for random or sequential page access sequences.  
